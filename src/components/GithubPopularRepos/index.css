@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-container {
+    padding: 10px;
+  }
+}
+
+.popular {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.languages-container {
+  display: flex;
+}
+
+.details-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-img {
+  height: 300px;
+  margin-bottom: 5px;
+}
+
+.failure-text {
+  color: #1e293b;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
